@@ -1,17 +1,38 @@
-Card-Design/
-#-Sakura Card UI:
-##A Sakura-themed card component built using pure HTML and CSS, featuring a clean layout,box shadow and hover interaction.
-Includes a “Read more” link to Wikipedia for additional information on Sakura (cherry blossoms).
-Built to practice core UI layout and CSS fundamentals.
+#  UI Practice Projects
 
-Learning-Tailwind/
--A Shopping cart UI & Photography Exhibit:
-##Two UI projects built using **HTML** and **Tailwind CSS** while learning the freeCodeCamp Frontend Libraries curriculum.
-## Projects:
-- **Shopping Cart UI** – Responsive cart layout using Flexbox, styled product cards, and an order summary section.
-- **Photography Exhibit** – Responsive card grid using CSS Grid with consistent image sizing and a clean call-to-action link.
-## Built to practice Utility class based framework, Tailwind.
+A concise collection of frontend UI projects focused on clean layout, responsiveness, and modern styling using HTML, CSS, and Tailwind CSS.
 
+---
 
+## 📁 Projects Overview
 
+### 🌸 Sakura Card UI (`Card-Design/`)
+A Sakura (Cherry Blossom) themed card component built with pure HTML and CSS. Features a clean layout, subtle box-shadow, smooth hover interaction, and a “Read more” link to Wikipedia.
 
+**Tech:** HTML, CSS  
+**Skills:** UI layout, spacing, hover states, visual hierarchy
+
+---
+
+### 🛒 Shopping Cart UI (`Learning-Tailwind/`)
+A responsive shopping cart interface built using Tailwind CSS, including styled product cards, a Flexbox-based layout, and an order summary section.
+
+**Tech:** HTML, Tailwind CSS  
+**Skills:** Responsive design, Flexbox, utility-first styling
+
+---
+
+### 📸 Photography Exhibit (`Learning-Tailwind/`)
+A minimal photography showcase using a responsive CSS Grid layout with consistent image sizing and a clean call-to-action.
+
+**Tech:** HTML, Tailwind CSS  
+**Skills:** CSS Grid, layout consistency, visual presentation
+
+---
+
+## 🎯 What This Demonstrates
+
+- Strong frontend fundamentals  
+- Clean and readable HTML structure  
+- Practical use of Tailwind CSS  
+- Focus on UI clarity and responsiveness
