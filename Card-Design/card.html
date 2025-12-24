@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Design</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f9f9f9;
+    }
+
+    .card {
+      border-radius: 10px;
+      box-shadow: 1px 1px 10px 6px rgb(221, 216, 216);
+      padding: 10px;
+      margin: auto;
+      width: 100%;
+      max-width: 350px; 
+      background: #fff;
+    }
+
+    .img {
+      display: flex;
+      justify-content: center;
+      border: 4px solid rgb(248, 178, 205);
+      border-radius: 10px;
+      margin: 6px;
+      overflow: hidden;
+    }
+
+    .logo {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .lake, .nature {
+      color: rgb(157, 153, 153);
+      border: 1px solid rgb(248, 178, 205);
+      border-radius: 30px;
+      padding: 2px 8px 1px 8px;
+      margin: 5px;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+    .top {
+      display: flex;
+      flex-wrap: wrap; 
+      padding-left: 12px;
+    }
+
+    .header {
+      font-size: 22px;
+      padding-left: 14px;
+      font-weight: bold;
+      margin-bottom: 0;
+      margin-top: 10px;
+      color: rgb(248, 178, 205);
+    }
+
+    .description {
+      color: rgb(157, 153, 153);
+      padding: 0 14px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: center;
+      padding: 14px 0;
+    }
+
+    .readmore {
+      border-radius: 20px;
+      display: inline-block;
+      background-color: rgb(251, 216, 229);
+      font-size: 15px;
+      color: rgb(246, 71, 138);
+      padding: 10px 20px;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .readmore:hover {
+      background: rgb(246, 71, 138);
+      color: #fff;
+    }
+
+    /* 📱 Mobile adjustments */
+    @media (max-width: 480px) {
+      body {
+        padding: 10px;
+      }
+
+      .header {
+        font-size: 18px;
+      }
+
+      .description {
+        font-size: 14px;
+      }
+
+      .readmore {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="img">
+      <img class="logo" src="istockphoto-1347352409-612x612.jpg" alt="Card Image">
+    </div>
+    <div class="top">
+      <p class="nature">Nature</p>
+      <p class="lake">Flower</p>
+    </div>
+    <p class="header">Beauty of Sakura</p>
+    <p class="description">
+      Sakura are ornamental cherry blossoms, a national symbol of Japan, renowned for their brief but beautiful bloom in spring. They represent new beginnings, hope, and the transient nature of life.
+    </p>
+    <div class="bottom">
+      <a href="https://en.wikipedia.org/wiki/Cherry_blossom" class="readmore"> Read more </a> 
+    </div>
+  </div>
+</body>
+</html>
